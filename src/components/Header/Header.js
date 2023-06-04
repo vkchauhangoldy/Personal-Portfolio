@@ -7,7 +7,7 @@ const Header = () => {
         <Fragment>
             <div className={classes.header}>
                 <div className={classes.left}>
-                    <a href="/"><img src={image} alt="" /></a>
+                    <Link to='/'><img src={image} alt="" /></Link>
                     <h1 className={classes.logo}>Portfo<span>lio</span></h1>
                 </div>
                 <div className={classes.right}>
