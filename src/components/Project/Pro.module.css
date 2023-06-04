@@ -3,11 +3,11 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 5rem;
-  padding: 5.5rem;
+  padding: 6rem;
 }
 .title {
   text-align: center;
-  padding: 3rem;
+  padding: 4rem;
   font-size: 4rem;
   font-weight: bold;
   text-decoration: underline;
@@ -15,7 +15,7 @@
 .project {
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 1.5rem;
   text-align: center;
 }
 .project img {

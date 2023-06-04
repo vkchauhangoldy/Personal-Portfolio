@@ -1,8 +1,7 @@
 .header {
-  font-size: 5rem;
+  font-size: 4.5rem;
   text-align: center;
-  padding: 2.5rem;
-  font-size: 5rem;
+  padding: 4rem;
   font-weight: bold;
   color: #032d38;
   letter-spacing: 0.25px;
@@ -13,7 +12,7 @@
   justify-content: center;
   align-content: center;
   gap: 4rem;
-  padding: 4.5rem;
+  padding: 5rem;
 }
 .content {
   display: flex;
