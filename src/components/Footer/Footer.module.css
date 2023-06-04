@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  padding: 2.1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  background: linear-gradient(to top left, #032d38, #021013);
+}
+.footer .link {
+  color: #fff;
+}
+.link {
+  text-decoration: none;
+}
+.footer p {
+  font-size: 1.4rem;
+  color: #fff;
+  letter-spacing: 0.25px;
+}
+.footer p:hover {
+  color: #f59f00;
+}

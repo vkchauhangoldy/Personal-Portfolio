@@ -1,0 +1,88 @@
+body {
+  color: #032d38;
+}
+.header {
+  text-align: center;
+  padding: 2.5rem;
+  font-size: 4rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 4rem;
+  padding: 3.5rem;
+}
+.left {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.details-controls {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.logo {
+  font-size: 3rem;
+  color: #f59f00;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.details h1 {
+  font-size: 2rem;
+  letter-spacing: 0.25px;
+}
+.details p {
+  font-size: 1.6rem;
+  letter-spacing: 0.25px;
+}
+
+.form {
+  gap: 1rem;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.form h1 {
+  padding: 2rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.input-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.input-controls label {
+  font-size: 1.6rem;
+}
+.input-controls input,
+.input-controls textarea {
+  padding: 0.5rem;
+  outline: none;
+}
+.action-controls {
+  text-align: center;
+}
+.button {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid #f59f00;
+  border-radius: 0.4rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: 0.25px;
+  color: #fff;
+  background-color: #f59f00;
+}
+.button:hover {
+  color: #f59f00;
+  background-color: #032d38;
+}

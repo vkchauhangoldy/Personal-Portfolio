@@ -1,0 +1,49 @@
+.project-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+  padding: 5.5rem;
+}
+.title {
+  text-align: center;
+  padding: 3rem;
+  font-size: 4rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.project {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  text-align: center;
+}
+.project img {
+  height: 20rem;
+  width: 25rem;
+  border-radius: 1rem;
+}
+.project a {
+  color: #032d38;
+}
+.btn {
+  text-align: center;
+  padding: 2.5rem;
+}
+button {
+  padding: 1rem;
+  font-size: 1.8rem;
+  border: 2px solid #f59f00;
+  background: linear-gradient(to top left, #f59f00, #f08c00);
+  border-radius: 0.4rem;
+  color: #fff;
+  letter-spacing: 0.25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: linear-gradient(to top left, #032d38, #021013);
+  transition: 3sec;
+  color: #f59f00;
+}

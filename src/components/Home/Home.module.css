@@ -1,0 +1,63 @@
+.container {
+  height: 100vh;
+  background: linear-gradient(to top left, #032d38, #021013);
+}
+li {
+  list-style: none;
+  font-size: 3.5rem;
+  color: #fff;
+  letter-spacing: 0.25px;
+}
+.link {
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 0.25px;
+}
+li :hover {
+  color: #f59f00;
+}
+.main {
+  height: 90vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  gap: 1.5rem;
+}
+.para {
+  font-size: 2rem;
+  color: #fff;
+  letter-spacing: 0.25px;
+  word-spacing: 0.35px;
+}
+.para span {
+  color: #f3a719;
+}
+.name {
+  font-size: 6rem;
+  color: #f59f00;
+  letter-spacing: 0.25px;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  gap: 4rem;
+}
+.button {
+  padding: 1rem;
+  font-size: 1.8rem;
+  border: 2px solid #f59f00;
+  background: linear-gradient(to top left, #f59f00, #f08c00);
+  border-radius: 0.4rem;
+  color: #fff;
+  letter-spacing: 0.25px;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+.button:hover {
+  background: linear-gradient(to top left, #032d38, #021013);
+  transition: 3sec;
+  color: #f59f00;
+}
