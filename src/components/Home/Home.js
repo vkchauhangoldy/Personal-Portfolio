@@ -29,7 +29,7 @@ const Home = () => {
                                 <Link className={classes.link} to='https://twitter.com/vk_goldy' target='blank'><FontAwesomeIcon icon={faTwitter} /></Link>
                             </li>
                         </p>
-                        <a className={classes.button} href="https://drive.google.com/file/d/1ZucJN6PiIW60Uqqne79InpM1NOeiDMdd/view?usp=drive_link" target='blank'>Download CV</a>
+                        <a className={classes.button} href="https://drive.google.com/file/d/1pdiK51wW0nrxoDe-iYCUnzyM6kzLVnt6/view?usp=drive_link" target='blank'>Download CV</a>
                     </div>
                 </div>
             </div>
